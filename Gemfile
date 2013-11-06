@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'mongoid', '~> 3.1'
+gem 'mongoid', github: 'mongoid/mongoid'
+gem 'mongoid-paranoia', github: 'simi/mongoid-paranoia'
 
 gemspec
